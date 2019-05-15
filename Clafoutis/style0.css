@@ -1,0 +1,423 @@
+{
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-image: url("Clafoutis.jpg");
+	background-size: cover;
+}
+
+h1{
+	text-align-last: center;
+	font-style: italic;
+	font-size: 50px;
+	color: #F9EEF7;
+	display: inline-block;
+	padding-top: -150px;
+}
+
+.main-header {
+	background-image: url("green-wallpaper.jpg");
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: -10px;
+	border-style: double;
+	border-color: #F9EEF7;
+	border-width: 10px;
+}
+
+.nav li {
+	font-size: 20px;
+	font-style: italic;
+	display: inline-block;
+	padding-left: 90px;
+	padding-right: 90px;
+}
+
+.nav a {
+	padding: .5em;
+	color: #F9EEF7;
+	text-decoration: none;
+}
+
+.div {
+  margin: 5px;
+  color: white;
+  background-color: rgba(0,0,0, 0.8);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding:5px 10px 5px 10px;
+  display: inline-flex;
+  font-size: 20px;
+}
+
+.div img {
+  width: 150px;
+  height: 150px;
+  margin: 35px;
+  float: right;
+  padding: 10px 10px 10px 10px;
+  border-color: #F9EEF7;
+  border-style: dashed;
+  border-width: 2px;
+}
+
+.sectionWeb1{
+	 margin: 72px 100px 72px 100px;
+}
+.div h1{
+	padding: 50px 50px 50px 50px;
+	text-align: center;
+}
+
+.div p{
+	padding: 40px 50px 40px 50px;
+}
+.section{
+	margin: 10px 0px 10px 0px;
+}
+.section p{
+	padding: 50px 200px 50px 200px;
+	margin: 50px 100px 50px 100px;
+    color: white;
+    font-size: 86px;
+    background-color: rgba(0,0,0, .8);
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: inline-flex;
+    font-style: italic;
+    text-align: center;
+
+
+}
+.main-footer {
+	background-image: url("green-wallpaper.jpg");
+	background-size: cover;
+	margin: 0px;
+	border-style: double;
+	border-color: #F9EEF7;
+	display: flex;
+}
+.main-footer ul {
+	flex-grow: 1;
+	text-align: end;
+}
+
+.main-footer li{
+	display: inline-block;
+	margin: 8px 20px 8px 6px;
+}
+
+.p1{
+	text-align-last: left;
+	font-style: italic;
+	font-size: 20px;
+	color: #F9EEF7;
+	padding: 10px 10px 10px 10px;
+}
+
+.divWeb2 {
+  margin: 48px 30px 48px 30px;
+  color: white;
+  background-color: rgba(0,0,0, .8);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding:40px 20px 40px 20px;
+  display: inline-flex;
+  font-size: 20px;
+}
+
+.divWeb2 img {
+  width: 150px;
+  height: 150px;
+  margin: 35px;
+  float: right;
+  padding: 10px 10px 10px 10px;
+  border-color: #F9EEF7;
+  border-style: dashed;
+  border-width: 2px;
+}
+
+.divWeb2 h2{
+	padding: 70px 10px 70px 10px;
+	text-align: center;
+}
+
+.divWeb2 p4{
+	padding: 70px 20px 70px 20px;
+	text-align: center;
+
+}
+
+.divWeb2 p5{
+	padding: 70px 20px 70px 20px;
+	text-align: center;
+
+}
+
+.divWeb2 p6{
+	padding: 70px 20px 70px 20px;
+	text-align: center;
+
+}
+
+.divWeb2 p7{
+	padding: 70px 20px 70px 20px;
+	text-align: center;
+
+}
+
+.section3{
+	background-color: rgba(0,0,0, .8);
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: cover;
+    font-style: italic;
+    margin: 70px 100px 70px 100px;
+}
+
+.table {
+	color: #F9EEF7;
+	width: 100%;
+	font-size: 15px;
+	border-collapse: collapse;
+}
+
+.table th {
+	text-align: left;
+	font-size: 30px;
+	border-bottom: 2px solid #F9EEF7;
+	padding: 10px 20px 10px 20px
+}
+
+.table td{
+	padding: 5px 30px 5px 30px
+}
+
+.form {
+	width: 1519px;
+	color: #F9EEF7;
+	background-color: rgba(0,0,0, 0.8);
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: cover;
+    text-align: center;
+}
+
+.form ul {
+	margin: 0;
+	padding: 3px 3px 3px 3px;
+
+}
+
+.form li {
+	padding: 5px 5px 5px 5px;
+ 	display: inline-block;
+
+}
+.inputw3 input[type=text]{
+  width: 50%;
+}
+
+.dropbutton {
+  background-color: transparent;
+  color: #F9EEF7;
+  font-style: italic;
+  padding: 16px;
+  padding-left: 90px;
+  padding-right: 90px;
+  font-size: 20px;
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropped-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0,0,0, 0.8);
+  color: #F9EEF7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: dashed;
+  border-color: #F9EEF7;
+  border-width: 1px;
+}
+
+.dropped-content a {
+  color: #F9EEF7;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropped-content a:hover {
+	background-color: rgba(0,0,0, 0.8);
+}
+
+.dropdown:hover .dropped-content {
+	display: block;
+
+}
+
+.dropdown:hover .dropbutton {
+	background-color: rgba(0,0,0, 0.8);
+}
+
+.cssection {
+  position: relative;
+  color: white;
+  background-color: rgba(0,0,0, 0.8);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding: 0px 20px 20px 20px;
+  margin: 50px 100px 50px 130px;
+  display: inline-flex;
+  font-size: 20px;
+} 
+
+.cspage h3{
+font-size: 54px;	
+font-style: italic;
+margin: 45px 465px 30px 475px;
+}
+
+hr {
+  margin: auto;
+  width: 60%;
+}
+
+.cspar1{
+	font-size: 22px;
+	font-style: italic;
+	margin: 13px 5px 5px 5px;
+}
+
+.cspar2 {
+	font-size: 32px;
+	font-style: italic;
+	margin: 30px 515px 33px 525px;
+
+}
+
+.cspar3{
+	font-size: 17px;
+	font-style: italic;
+	margin: 5px 5px 0px 5px;
+}
+
+.sectweb2{
+  color: white;
+  background-color: rgba(0,0,0, 0.8);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding: 5px 606px 5px 606px;
+  margin: 0px 30px 0px 30px;
+  display: inline-flex;
+  font-size: 15px;	
+}
+
+body {
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ffe6e6;
+  outline: none;
+}
+
+button {
+  background-color: #ffcccc;
+  font-size: 20px;
+  color: #330033;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  padding: 14px 20px 14px 20px;
+  margin: 3px 3px 3px 3px;
+  border: double;
+  border-color: #330033;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #e6e6ff;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+h4{
+	font-size: 40px;
+}
+
+.container {
+  padding: 16px;
+  width: 700px;
+}
+
+.modal {
+  display: none;
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: #73264d;
+  padding-top: 50px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+ 
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
